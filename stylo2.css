@@ -30,8 +30,8 @@
 }
 
 :root {
-    --primary-color: #00635A;
-    --secundary-color: #009688;
+    --primary-color: hsla(174, 100, 19, 1);
+    --secundary-color: hsla(173, 73, 57, 1);
     --color-background: #F2F2F2;
     --color-action: #44E3D3;
     --color-inverse: #fff;
