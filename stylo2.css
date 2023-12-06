@@ -30,7 +30,7 @@
 }
 
 :root {
-    --primary-color: rgb(1, 51, 46);
+    --primary-color: rgb(9, 46, 42);
     --secundary-color: hsla(173, 73, 57, 1);
     --color-background: rgba(0, 98, 89, 1);
     --color-action: #44E3D3;
@@ -336,7 +336,7 @@ header {
 }
 .card h3{
     font-size: 21px;
-    color: var(--secundaria-color);
+    color:var(--primary-color);
     margin: 10px 0;
 }
 .card h2{
