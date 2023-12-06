@@ -292,6 +292,7 @@ header {
 .container{
     width: 80%;
     margin: 0 auto;
+    background-color: var(--primaria);
 
 }
 #equipe{
