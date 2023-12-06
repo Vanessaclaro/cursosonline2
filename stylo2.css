@@ -328,7 +328,7 @@ header {
 }
 .card:hover{
     box-shadow: 0 0 10px ;
-    border-bottom: 10px solid var(--secundaria);
+    border-bottom: 10px solid var(--secundaria-color);
 }
 .card img{
     clip-path: circle();
@@ -341,7 +341,7 @@ header {
 }
 .card h2{
     font-size: 28px;
-    color: var(--primary-color);
+    color: var(--color-action);
 }
 #equipe .card p{
     font-size: 14px;
