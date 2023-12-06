@@ -316,7 +316,7 @@ header {
     transform: scale(0.95);
 }
 .card{
-    background-color: #fff;
+    background-color:var(--color-action);
     display: flex;
     flex-direction: column;
     align-items: center;
