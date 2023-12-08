@@ -260,6 +260,7 @@ header {
 .img-fluid {
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 #home {
@@ -283,7 +284,8 @@ header {
     width: 80%;
     height: 100%;
     top: -10%;
-    right: 5%;
+    right: 10%;
+    left: 10%;
     z-index: -1;
 }
 
@@ -291,7 +293,7 @@ header {
     fill: var(--color-action);
 }
 
-#home .shape-liquid:nth-child(2) {
+#home .shape-liquid:nth-child(1) {
     filter: blur(50px);
 }
 
