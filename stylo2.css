@@ -63,9 +63,12 @@ body {
     color: #44E3D3;
     text-align: center;
 }
-p{
+.paragrafo1{
     color: #fff;
     font-size: 24px;
+}
+p{
+    color: black;
 }
 
 /* ------------ grid 12 colunas */
