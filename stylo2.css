@@ -58,8 +58,14 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+.inscreva{
+    font-size: 50px;
+    color: #44E3D3;
+    text-align: center;
+}
 p{
     color: #fff;
+    font-size: 24px;
 }
 
 /* ------------ grid 12 colunas */
@@ -272,7 +278,6 @@ header {
 #home .home-img img {
     margin-top: 80px;
 }
-
 #home .shape-liquid {
     position: absolute;
     width: 80%;
@@ -323,9 +328,7 @@ header {
     align-items: center;
     width: 31%;
     padding:30px 20px;
-    border-radius: 8px;
-    margin-bottom: 2%;
-    border-bottom: 10px solid #fff;
+    border-radius: 20px;
 }
 .card:hover{
     box-shadow: 0 0 10px ;
