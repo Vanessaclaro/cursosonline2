@@ -369,3 +369,78 @@ header {
         width: 100%;
     }
   }
+.cont{
+    width: 70%;
+    margin: 0 auto;
+}
+#modules{
+    text-align: center;
+    padding: 60px 0;
+}
+.mod{
+    font-size: 34px;
+    color: #00635A;
+    text-align: justify;
+}
+#modules p{
+    font-size: 24px;
+    margin: 30px 0 60px 0;
+}
+.car-grupo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5%;
+    margin-top:-70px;
+}
+.car-grupo:hover>:not(:hover){
+    opacity: 40%;
+    transform: scale(0.95);
+}
+.car{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31%;
+}
+.car img{
+    clip-path: circle();
+    width: 70%;
+}
+.car h3{
+    font-size: 21px;
+    color: black;
+    margin: 10px 0;
+}
+.car h2{
+    font-size: 21px;
+    color: black;
+}
+#modules .car p{
+    font-size: 14px;
+    color: black;
+    margin: 10px 0;
+    text-align: justify;
+    display: block;
+}
+@media only screen and (max-width: 1000px) {
+    .car{
+        width: 48%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .car{
+        width: 100%;
+    }
+  }
+.car img{
+    width: 300px;
+    animation: flot 2.0s ease-in-out infinite;
+}
+@keyframes flot{
+    0%,100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-20px); 
+    }
+}
