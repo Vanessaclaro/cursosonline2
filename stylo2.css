@@ -310,11 +310,11 @@ header {
 }
 .tituloprincipal{
     font-size: 34px;
-    color:var(--primaria);
+    color:var(--primary-color);
 }
 #equipe p{
     font-size: 24px;
-    color:var(--secundaria);
+    color:var(--secundaria-color);
     margin: 30px 0 60px 0;
 }
 .card-group{
@@ -370,7 +370,7 @@ header {
     }
   }
 .cont{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 #modules{
@@ -380,7 +380,7 @@ header {
 .mod{
     font-size: 34px;
     color: #00635A;
-    text-align: justify;
+    text-align: left;
 }
 #modules p{
     font-size: 24px;
@@ -389,8 +389,7 @@ header {
 .car-grupo{
     display: flex;
     flex-wrap: wrap;
-    gap: 3.5%;
-    margin-top:-70px;
+    gap: 2%;
 }
 .car-grupo:hover>:not(:hover){
     opacity: 40%;
@@ -403,7 +402,7 @@ header {
     width: 31%;
 }
 .car img{
-    clip-path: circle();
+    clip-path:circle();
     width: 70%;
 }
 .car h3{
@@ -413,7 +412,7 @@ header {
 }
 .car h2{
     font-size: 21px;
-    color: black;
+    color:var(--color-action);
 }
 #modules .car p{
     font-size: 14px;
