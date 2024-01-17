@@ -5,6 +5,6 @@ function mobileNavShow() {
         document.querySelector('.nav-icon').src = "c:\Users\vanes\Downloads\bars-solid.svg";
     } else {
         mobileNav.classList.add('open');
-        document.querySelector('.nav-icon').src = "c:\Users\vanes\Downloads\bars-solid.svg";
+        document.querySelector('.nav-icon').src = "c:\Users\vanes\Downloads\ellipsis-vertical-solid (1).svg";
     }
 }
